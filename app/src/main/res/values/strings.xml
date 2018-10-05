@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">LyricsMusicPlayer</string>
+    <string name="back"><![CDATA[<]]></string>
+    <string name="rewind"><![CDATA[<<]]></string>
+    <string name="forward"><![CDATA[>>]]></string>
+    <string name="pause">||</string>
+    <string name="play">Play</string>
+    <string name="cd_repeat">Repeat one or all</string>
+    <string name="cd_previous">Skip backwards</string>
+    <string name="cd_play">Play and pause</string>
+    <string name="cd_next">Skip forwards</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
+

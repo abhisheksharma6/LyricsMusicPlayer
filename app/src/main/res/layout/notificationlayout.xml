@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:src="@drawable/default_album_art"
+        />
+
+    <TextView
+        android:id="@+id/songTitle"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Song Title"
+        android:layout_toRightOf="@+id/imageView"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/artistName"
+        android:layout_marginTop="15dp"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="Artist Name"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_below="@+id/songTitle"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:textSize="18sp"
+        />
+
+    <LinearLayout
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="13dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_below="@+id/artistName"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/previousSong"
+            android:layout_marginLeft="5dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/previous"
+            />
+
+        <ImageView
+            android:id="@+id/pause"
+            android:layout_weight="1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/play"
+            />
+
+        <ImageView
+            android:id="@+id/nextSong"
+            android:layout_marginRight="5dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/previous"
+            />
+
+    </LinearLayout>
+
+    <!--<Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="volume" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Stop" />-->
+
+   <!-- <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/msglbl" />-->
+
+    </RelativeLayout>
